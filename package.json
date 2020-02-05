@@ -1,6 +1,6 @@
 {
   "name": "translit-passport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ultra-lightweight library for converting Cyrillic symbols to Translit, use rules conversion for a Russian foreign passport",
   "main": "lib/index.js",
   "scripts": {
