@@ -1,8 +1,8 @@
-#translit-passport
+# translit-passport
 
 **Ultra-lightweight library for converting Cyrillic symbols to Translit, use rules conversion for a Russian foreign passport**
 
-##Install
+## Install
 ```
 yarn add translit-passport
 ```
@@ -11,7 +11,7 @@ or
 npm install translit-passport
 ```
 
-##Using
+## Using
 
 **cyrillicToLatin** - Convert cyrillic symbols to translit
 
@@ -23,6 +23,6 @@ translit.cyrillicToLatin('Здесь нужно иметь в виду.')
 >Zdes nuzhno imet v vidu
 ```
 
-##License
+## License
 MIT
 
