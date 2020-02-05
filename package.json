@@ -1,0 +1,34 @@
+{
+  "name": "translit-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+    "lint": "eslint --fix --ext .js,.ts ./"
+  },
+  "author": "Evgeniy Rorot <rorot.evgeniy@gmail.com>",
+  "keywords": [
+    "translit",
+    "cyrillic",
+    "transformation",
+    "translit-passport"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.8",
+    "@types/mocha": "^7.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^7.0.1",
+    "ts-node": "^8.6.2",
+    "typescript": "3.7.5"
+  },
+  "directories": {
+    "test": "tests"
+  }
+
+}
