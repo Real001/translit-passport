@@ -1,7 +1,7 @@
 {
   "name": "translit-passport",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ultra-lightweight library for converting Cyrillic symbols to Translit, use rules conversion for a Russian foreign passport",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
@@ -29,6 +29,13 @@
   },
   "directories": {
     "test": "tests"
-  }
-
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Real001/translit-passport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Real001/translit-passport/issues"
+  },
+  "homepage": "https://github.com/Real001/translit-passport#readme"
 }
